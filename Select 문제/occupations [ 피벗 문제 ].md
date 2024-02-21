@@ -50,5 +50,5 @@
   GROUP BY RN
   ```
   - **해설 :** 먼저 가로로 출력하기 위해 가장 안쪽 쿼리에서 Occupation 컬럼을 그룹핑하고 NAME을 오름차순으로 하여 ROW_NUMBER 함수를 사용해 행에 순번을 지정합니다. 그리고 가운데 쿼리에서 CASE WHEN 구문을 사용해 Doctor, Professor, Singer, Actor 순으로 값을 출력해줍니다. 중간 쿼리를 따로 실행해보면 아래 사진과 같이 출력되는 것을 볼 수 있습니다.
-    사진(1)
+    ![사진1](https://github.com/KimYongJ/SQL_ps/assets/106525587/50e26161-d814-48d6-affd-989020613f84)
     이렇게 출력되고 나면 이제 단순히 RN을 깆준으로 GROUP을 묶어서 MAX로 출력해주면 잘 출력이 되는 것을 확인할 수 있습니다. 문제 조건에서 빈칸은 NULL을 출력하라고 했는데, MAX함수를 사용했을 때 값이 없다면 자동으로 NULL을 출력해줍니다.
