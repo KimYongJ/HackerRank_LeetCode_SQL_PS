@@ -1,6 +1,6 @@
 - the-company
   - [https://www.hackerrank.com/challenges/the-company/problem?isFullScreen=true](https://www.hackerrank.com/challenges/the-company/problem?isFullScreen=true)
-  - **문제 :** Company 테이블에 있는 값을 출력하고, company_code 코드를 기준으로 Lead_Manager 테이블에서 lead_manager_code 개수를 카운팅하고, Senior_Manager 테이블에서 senior_manager_code 값을 카운팅하고, Manager 테이블에서 manager_code 값을 카운팅하고, Employee 테이블에서 employee_code 컬럼 값을 카운팅하여 출력하면 됩니다. 이 때 중복되는 행이 있을 수 있습니다. 그 부분은 제거를 해야 합니다. 그리고 출력은 company_code기준으로 오름차순 정렬이며, Company 테이블의 company_code는 모든 테이블의 외래키라고 생각하고 문제를 풀어도 됩니다.
+  - **문제 :** Company 테이블에 있는 값을 출력하고, Company 테이블의 company_code 컬럼을 기준으로 Lead_Manager 테이블에서 lead_manager_code 개수를 카운팅하고, Senior_Manager 테이블에서 senior_manager_code 값을 카운팅하고, Manager 테이블에서 manager_code 값을 카운팅하고, Employee 테이블에서 employee_code 컬럼 값을 카운팅하여 출력하면 됩니다. 이 때 중복되는 행이 있을 수 있습니다. 그 부분은 제거를 해야 합니다. 그리고 출력은 company_code기준으로 오름차순 정렬이며, Company 테이블의 company_code는 모든 테이블의 외래키라고 생각하고 문제를 풀어도 됩니다.
   ```jsx
   [ 예상 출력 ]
   C1 Monika 1 2 1 2
