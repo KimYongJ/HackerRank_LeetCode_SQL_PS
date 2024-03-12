@@ -53,6 +53,8 @@ ORDER BY PERCENTAGE DESC, CONTEST_ID
 ```
 
 - **정답(1) 해설 :** 등록한 유저들의 총 수를 구해야 하기 때문에 크로스 조인하면서 모든 유저들을 구해옵니다. 크로스 조인 후 테이블 상태는 아래 사진과 같습니다.
-  사진(1)
+
+  ![사진1](https://github.com/KimYongJ/HackerRank_LeetCode_SQL_PS/assets/106525587/f143fb38-e3a1-4a07-ade7-b36121c42eaf)
+
   그 후 CONTEST_ID 기준으로 그룹을 지어, 각 경연대회에 등록한 사용자 수와 총 유저수를 나누고 100을 곱해 비율을 구해옵니다.
 - **정답(2) 해설 :** 정답(1)의 서브쿼리를 select절로 올린것만 차이날 뿐 다른 것은 없습니다.
