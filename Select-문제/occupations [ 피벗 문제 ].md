@@ -21,11 +21,13 @@
   ```
   - **문제 :** Occupation 별로 이름을 세로로 출력합니다. 이 때 Occupation 순서는 Doctor, Professor, Singer, Actor 순서로 출력하며 이름은 오름차순으로 출력하고 값이 없을 경우 NULL을 출력합니다.
   - **출력 예시**
+    
   | Doctor   | Professor | Singer | Actor |
   | -------- | --------- | ------ | ----- |
   | enny     | Ashely    | Meera  | Jane  |
   | Samantha | Christeen | Priya  | Julia |
   | NULL     | Ketty     | NULL   | Maria |
+  
   ```jsx
   [ 정답 ]
   SELECT
