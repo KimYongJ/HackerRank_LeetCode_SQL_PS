@@ -57,6 +57,9 @@ ORDER BY VISITED_ON
     - **ROWS** : 뒤에 나오는 범위로 데이터 구간을 한정한다는 의미입니다.
     - **BETWEEN** **6 PRECEDING** **AND** **CURRENT** **ROW :** 현재 행(CURRENT ROW) 과 6행 전까지(6 PRECEDING) 사이(BETWEEN)를 구간으로 한다는 의미입니다.
   - 테이블명 C0의 실행 결과는 아래와 같습니다.
-  - 사진(1)
+  
+  ![사진1](https://github.com/KimYongJ/HackerRank_LeetCode_SQL_PS/assets/106525587/9426ab50-db3b-4626-a035-8d2dbb95887e)
+
   - 위 사진에서 보듯이 이전 일주일치 결제 금액 합계와, 평균이 잘 구해졌습니다. 여기서 추가적으로 일주일을 다 채우지 못하는, 그러니까 현 행의 VISITED_ON 날짜 보다 6일 전 행이 없는 컬럼들은 걸러주어야 합니다. 이를 위해 EXISTS 키워드를 사용합니다. 오늘 날짜 기준으로 6일전 행이 있는 데이터만 화면에 출력해줍니다.
-  - 사진(2)
+  
+   ![사진2](https://github.com/KimYongJ/HackerRank_LeetCode_SQL_PS/assets/106525587/60ea868f-2b9e-49a3-8bba-6248718de941)
