@@ -34,5 +34,8 @@ LIMIT 1
 ```
 
 - **해설 :** 윈도우 함수를 사용해 TURN 컬럼을 기준으로 점진적인 합계를 구해나갑니다. 아래는 이렇게 구한 서브 쿼리 실행 결과 입니다.
-  사진(1)
+
+  ![사진1](https://github.com/KimYongJ/HackerRank_LeetCode_SQL_PS/assets/106525587/5b43b62e-9a80-442f-947c-1a2a17de1cf2)
+
+  
   그 후 TOTAL 컬럼이 1000을 넘지 않는 행들을 TOTAL값 기준으로 내림차순 정렬합니다. 하나만 출력 해야하기 때문에 마지막에 LIMIT 1로 한 줄만 출력 되도록 합니다.
